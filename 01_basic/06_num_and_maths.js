@@ -5,12 +5,12 @@ const balance = new Number(400) //new object re define karte hai
 
 
 // console.log(balance.toString().length);
-//  console.log(balance.toFixed(1)); //after decimal two no will show
+//  console.log(balance.toFixed(2)); //after decimal two no will show
 
 //  precision value****************
 
 const otherNumber = 123.8986
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(3));
 
 
 // calculate no of zero's
@@ -30,13 +30,13 @@ const zeros = 1000000
 
 
 // console.log( (Math.random()*10) +1);
-// console.log(Math.random());
+console.log(Math.random());
 // console.log(Math.floor (Math.random()*10 )+ 1);
 // console.log(Math.floor (Math.random()*10 )+ 1);
 
 const min = 10
 const max = 20 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
 
