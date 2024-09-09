@@ -21,13 +21,13 @@ const real_another_array =another_array.flat(Infinity)
 /*Interesting  */
 
 // console.log(Array.isArray("Sibun"));
-// console.log(Array.from("Sibun"));
-// console.log(Array.from({Name :"Sibun"})); //  intersting***
+console.log(Array.from("Sibun"));
+ console.log(Array.from({Name :"Sibun"})); //  intersting***
 
 let score1= 100
 let score2=200
 let score3 = 300
-console.log(Array.of(score1,score2,score3));
+// console.log(Array.of(score1,score2,score3));
 
 
 
