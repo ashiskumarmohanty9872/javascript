@@ -1,3 +1,7 @@
+/* Annonymous Function:-function, without a name, is called an anonymous function.
+variable name act as function name*/
+
+
 function sayMyName() {
     console.log("s"); 
     console.log("i");
@@ -47,14 +51,50 @@ const result = addTwoNumbers(3,5)
 // console.log(loginUserMsg("sibun"))
 // console.log(loginUserMsg(""))
 
-function loginUserMsg (username="sibun"){
-  if(!username){
-    console.log("plz enter a username");
-        return 
-  }
-  return `${username} just logged in`
+// function loginUserMsg (username="sibun"){
+//   if(!username){
+//     console.log("plz enter a username");
+//         return 
+//   }
+//   return `${username} just logged in`
+// }
+// console.log(loginUserMsg("ashis kmar Mohanty"))
+
+/**Spread operator */
+
+//  function calculateCarPrice(...num1){
+//     return num1
+//  }
+//  console.log(calculateCarPrice(2 ,3,56));
+  
+
+function calculateCarPrice(var1,var2,...num1){
+  return var1
 }
-console.log(loginUserMsg("asis kmar Mohanty"))
+// console.log(calculateCarPrice(2 ,3,56,45)); //56,45
+
+const user= {
+  userName :"Sibun" ,
+  price:199
+}
+function handleObjects(anyobject){
+  console.log(`user name is ${anyobject.userName} and price is ${anyobject.price}`);
+  
+}
+// handleObjects(user);
+
+// handleObjects({
+//   userName:"Anurag",
+//   pricd:155
+// })
 
 
- 
+const myNewArr= [10,20,30]
+function returnSecondValue(getarray){
+  return getarray[1]
+}
+// console.log(returnSecondValue([60,40,90]))
+console.log(returnSecondValue([60,40,90]))
+
+
+
