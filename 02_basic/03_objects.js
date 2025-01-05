@@ -8,7 +8,7 @@ const mysybl =Symbol("key1") // Interesting*************
 const user ={
     Name : "Sibun" ,
     "full Name" :"Ashis kumar Mohanty",
-   [mysybl]:"Mykey", //interetying
+   [mysybl]:"Mykey",//interesting
     Age : 24 ,
     Location:"Bangalore",
     email : "sibun@gmail.com" ,
@@ -16,12 +16,15 @@ const user ={
     lastLoggedIn : ["Monday" ,"Saturday"]
 
 }
+
 // console.log(user.Name); // takes key value as String
-// console.log(user["Name"]) // dont take as string so put "" .
+// console.log(user["Name"]) // console dont take as string  , so put semicolo "" .
 // console.log(user["full Name"]);
-// console.log( user.mysybl);
+
+// console.log( user.mysybl); //1>
 // console.log(typeof user.mysybl); // 1>  here symbol is string
-// console.log( user[mysybl]);
+
+// console.log( user[mysybl]); //2>
 // console.log(typeof user[mysybl]); /* 2>here symbol is symbol by putting squre bracket in key value */ 
 
 
@@ -38,12 +41,14 @@ user.greeting=function(){
     console.log("Hello js user");
     
 }
+
+
 user.greetingtwo=function(){
     console.log(`Hello js user , ${this.Name}`);
     
 }
-console.log(user.greeting());
-console.log(user.greetingtwo());
+// console.log(user.greeting());
+// console.log(user.greetingtwo());
 
 
 

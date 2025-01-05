@@ -55,7 +55,7 @@ const users =[{
 
 //  console.log(tinderUser.hasOwnProperty('isLogged'));
 
-// *************Deconstructor*************
+// *************Object Destructure*************
 
 const course = {
     courseName :"js in Hindi",
@@ -67,6 +67,16 @@ const {courseInstructor } = course
 const {courseInstructor:CI } = course //"" Naming for it in own style"
 console.log(courseInstructor);
 console.log(CI);
+
+//  API ??:-apna kam kisi dusri ke upar dalna,ex -hotel me order dena for biriyani
+// JSON :- javscript Object Nottion
+
+// 
+[
+    {},
+    {},
+    {}
+]
 
 
  

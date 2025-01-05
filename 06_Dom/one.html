@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Dom Learning</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .bg-black{
+                background-color: #212121;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body  class="bg-black">
+        <p>
+            <span class="full-moon">🌕</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="full-moon">🌕</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="full-moon">🌕</span>
+          </p>
+
+          <script>
+            let stars=document.getElementsByClassName('star');
+                for(let star of stars){
+                star.style.textShadow=  "0px 0px  25px cyan";
+                }
+          </script>
+    </body>
+</html>
+

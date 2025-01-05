@@ -10,8 +10,8 @@ if(true){
 }
 // console.log(a); //CE
 // console.log(b);// CE
-// console.log(c);
-// console.log(b);
+// console.log(c); //30
+// console.log(b);//55
 
 
 // console.log(a);
@@ -33,28 +33,28 @@ Var can be declared and accessed globally. Let can be declared globally,
  const is blocked scoped,cant redeclare and reassign */
 
 
- function one(){
-    const username = "hitesh"
+//  function one(){
+//     const username = "hitesh"
 
-    function two(){
-        const website = "youtube"
-        console.log(username);
-        }
-        // console.log(website);
-        // two()
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
+//         }
+//         // console.log(website);
+//         // two()
         
- }
- one()
+//  }
+//  one()
 
- if (true){
-    const username = "hitesh"
-    if(username === "hitesh"){
-        const website = "youtube"
-        console.log(username + website);
+//  if (true){
+//     const username = "hitesh"
+//     if(username === "hitesh"){
+//         const website = "youtube"
+//         console.log(username + website);
         
-    }
-    // console.log(website)
- }
+//     }
+//     // console.log(website)
+//  }
 //  console.log(username )
 
 // ***************** Intersting ******************
@@ -64,7 +64,7 @@ function addone(num){
     return num +1 
 }
 
-addtwo()
+addtwo()       //declaration with hold in var(execution contest)
 const addtwo= function (num){
     return num +2 
 }

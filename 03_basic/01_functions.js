@@ -58,18 +58,15 @@ const result = addTwoNumbers(3,5)
 //   }
 //   return `${username} just logged in`
 // }
-// console.log(loginUserMsg("ashis kmar Mohanty"))
+// console.log(loginUserMsg("ashis kumar Mohanty"))
 
 /**Spread operator */
 
 //  function calculateCarPrice(...num1){
 //     return num1
 //  }
-//  console.log(calculateCarPrice(2 ,3,56));
-function calculateCaPrice(...ak){
-  return ak
-}
-console.log(calculateCaPrice("manmade" , "sibun"))
+//  console.log(calculateCarPrice(2 ,3,56)); //2,3,56
+
   
 
 function calculateCarPrice(var1,var2,...num1){
@@ -87,18 +84,20 @@ function handleObjects(anyobject){
 }
 // handleObjects(user);
 
+/* passing object in function*/
 // handleObjects({
 //   userName:"Anurag",
-//   pricd:155
+//   price:155
 // })
 
 
-const myNewArr= [10,20,30]
+/* passing array in function*/
+const myNewArr = [10,20,30]
 function returnSecondValue(getarray){
   return getarray[1]
 }
-// console.log(returnSecondValue([60,40,90]))
-// console.log(returnSecondValue([60,40,90]))
+// console.log(returnSecondValue(myNewArr)) //20
+// console.log(returnSecondValue([60,40,90])) // 40
 
 
 

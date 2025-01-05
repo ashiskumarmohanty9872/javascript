@@ -31,7 +31,7 @@ const bigNumber = 2393989099900099n
 
 
 //*************************************************
-// Stack (primitive,Copy Created), Heap (Non Primitive ,rference of original value)
+// Stack (primitive,Copy Created), Heap (Non Primitive ,rference of original value,change occur in original value)
 let myYoutubeName ="sibun.com"
 let anotherName= myYoutubeName
 console.log(anotherName);

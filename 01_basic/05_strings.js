@@ -22,7 +22,7 @@ const newString = gameName.substring(0 ,4)
 const newString1= "     sibun    "
 // console.log(newString1);
 // console.log(newString1.trim());
-
+ 
 
 const url="https:/hitesh.com/hitesh%20choudhry"
 // console.log(url.replace('%20','-'))

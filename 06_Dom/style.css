@@ -1,0 +1,9 @@
+body {
+    background-color: #222;
+  }
+  
+  p {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
